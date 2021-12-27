@@ -21,3 +21,16 @@ aponta para null
 * dequeue(): exclui o primeiro nó da Fila;
 * isEmpty(): verifica se a referência que aponta para o início da Fila é null.
 
+## Estruturas de Dados em Java: Listas
+
+### Listas Encadeadas
+É uma estrutura de dados linear e dinâmica composta por vários nós que estão interligados e suas respectivas referências apontadas para o próximo item da lista.
+
+#### Métodos Fila
+* size(): retorna tamanho da lista;
+* isEmpty(): verifica se a referência que aponta para o início da Fila é null;
+* add(): adiciona item da lista;
+* getNo(): busca nó específico pelo índice;
+* get(): retorna conteúdo do nó pelo índice;
+* remove(): exclui nó pelo índice.
+
