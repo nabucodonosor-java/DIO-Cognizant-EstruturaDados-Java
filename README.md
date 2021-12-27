@@ -46,3 +46,14 @@ aponta para null
 * get(): retorna conteúdo do nó pelo índice;
 * remove(): exclui nó pelo índice.
 
+### Listas Circulares
+É uma espécie de lista simples ou duplamente encadeada, mas que possui uma característica adicional para o deslocamento na lista: ela não tem fim.
+
+#### Métodos Lista Circular
+* size(): retorna tamanho da lista;
+* isEmpty(): verifica se a referência que aponta para o início da Fila é null;
+* add(): adiciona item da lista;
+* getNo(): busca nó específico pelo índice;
+* get(): retorna conteúdo do nó pelo índice;
+* remove(): exclui nó pelo índice.
+
