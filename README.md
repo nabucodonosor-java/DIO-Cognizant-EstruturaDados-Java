@@ -26,10 +26,22 @@ aponta para null
 ### Listas Encadeadas
 É uma estrutura de dados linear e dinâmica composta por vários nós que estão interligados e suas respectivas referências apontadas para o próximo item da lista.
 
-#### Métodos Fila
+#### Métodos Lista Encadeada
 * size(): retorna tamanho da lista;
 * isEmpty(): verifica se a referência que aponta para o início da Fila é null;
 * add(): adiciona item da lista;
+* getNo(): busca nó específico pelo índice;
+* get(): retorna conteúdo do nó pelo índice;
+* remove(): exclui nó pelo índice.
+
+### Listas Duplamente Encadeadas
+É uma estrutura de dados ligada que consiste de um conjunto de registros sequencialmente ligados chamados de nós e é uma extensão da lista simplesmente ligada.
+
+#### Métodos Lista Encadeada
+* size(): retorna tamanho da lista;
+* isEmpty(): verifica se a referência que aponta para o início da Fila é null;
+* add(): adiciona item da lista;
+* add(index): adiciona item da lista em índice específico;
 * getNo(): busca nó específico pelo índice;
 * get(): retorna conteúdo do nó pelo índice;
 * remove(): exclui nó pelo índice.
