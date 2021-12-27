@@ -1,11 +1,11 @@
 package com.dio.ed;
 
-public class No<T> {
+public class NoGeneric<T> {
 	
 	private T conteudo;
-	private No<T> proximoNo;
+	private NoGeneric<T> proximoNo;
 	
-	public No(T conteudo) {
+	public NoGeneric(T conteudo) {
 		this.conteudo = conteudo;
 		this.proximoNo = null;
 	}
@@ -18,11 +18,11 @@ public class No<T> {
 		this.conteudo = conteudo;
 	}
 
-	public No<T> getProximoNo() {
+	public NoGeneric<T> getProximoNo() {
 		return proximoNo;
 	}
 
-	public void setProximoNo(No<T> proximoNo) {
+	public void setProximoNo(NoGeneric<T> proximoNo) {
 		this.proximoNo = proximoNo;
 	}
 
