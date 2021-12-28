@@ -57,3 +57,16 @@ aponta para null
 * get(): retorna conteúdo do nó pelo índice;
 * remove(): exclui nó pelo índice.
 
+## Estruturas de Dados em Java: Árvores
+É uma estrutura de dados bidimensional, não linear e constituída de nós que represntam um modelo hierárquico onde o armazenamento dos dados são realizados com base em relações
+de dependências. Segue abaixo algumas características de uma árvore hierárquica:
+* Nó: elemento da árvore que pode armazenar dados e referÊncias para outros nós;
+* Raiz: nó principal da árvore e origem de todos as outras ramificações;
+* Pai e Filho: o que está acima é o nó pai e as ramificações nós filhos;
+* Irmão: nó do mesmo pai;
+* Nível de um nó: posição hierárquica com relação a raiz;
+* Altura ou Profundidade: grau máximo dos nós;
+* Folha ou nó terminal: nó que não tem filhos
+* Nó interno: não são folhas;
+* Grau de um nó: indicado pelo números de filhos;
+* Subárvore: formada a partir de nó da árvore principal sendo considerada um ramo.
